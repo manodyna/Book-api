@@ -12,8 +12,8 @@ import javax.persistence.Id;
 public class Model {
 
 
-//    @GeneratedValue(strategy = GenerationType.AUTO, generator = "system-uuid")
-//    @GenericGenerator(name = "system-uuid", strategy = "uuid")
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "system-uuid")
+    @GenericGenerator(name = "system-uuid", strategy = "uuid")
 //    private String id;
     @Id
     private String title;

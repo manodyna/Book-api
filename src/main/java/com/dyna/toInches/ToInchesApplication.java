@@ -15,8 +15,6 @@ public class ToInchesApplication {
 	}
 
 	@Autowired
-
-
 	public static void main(String[] args) {
 		SpringApplication.run(ToInchesApplication.class, args);
 	}
